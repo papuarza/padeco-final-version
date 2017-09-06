@@ -4,6 +4,10 @@ $paragraph-font: 'Roboto', sans-serif;
 $title-font: 'Roboto Mono', monospace;
 $complementary-color: #2D4467;
 
+* {
+  border: 0;
+}
+
 html {
   width: 100%;
   overflow-x: hidden;
@@ -11,7 +15,7 @@ html {
 
 header.parallax-container {
   height: 100vh;
-  background-image: url("https://static.pexels.com/photos/541522/pexels-photo-541522.jpeg");
+  background-image: url("../images/bg-parallax.jpeg");
   background-size: cover;
   z-index: 0;
   position: relative;
@@ -137,21 +141,10 @@ nav {
   color: $primary-color;
 }
 
-.modal {}
-
-.features-wrapper-row {
-  width: 100%;
-  background: url("https://static.pexels.com/photos/429247/pexels-photo-429247.jpeg");
-  background-size: cover;
-  background-position: center;
-}
-
 .features-wrapper {
   height: 200px;
   padding: 0 10px;
 }
-
-
 
 .feature-item-modal-wrapper {
   width: 100%;
@@ -332,13 +325,13 @@ nav {
 
 
 .first-column {
-  background-image: url("https://static.pexels.com/photos/35550/ipad-tablet-technology-touch.jpg");
+  background-image: url("../images/column-img-1.jpg");
 }
 .second-column {
-  background-image: url("https://static.pexels.com/photos/278691/pexels-photo-278691.jpeg");
+  background-image: url("../images/column-img-2.jpeg");
 }
 .third-column {
-  background-image: url("https://static.pexels.com/photos/237211/pexels-photo-237211.jpeg");
+  background-image: url("../images/column-img-3.jpeg");
 }
 
 #description-img-col {
@@ -349,19 +342,19 @@ nav {
 }
 
 .first-img {
-  background-image: url("https://static.pexels.com/photos/159991/pexels-photo-159991.jpeg");
+  background-image: url("../images/filosofia-1.jpeg");
 }
 
 .second-img {
-  background-image: url("https://static.pexels.com/photos/541522/pexels-photo-541522.jpeg");
+  background-image: url("../images/filosofia-2.jpeg");
 }
 
 .third-img {
-  background-image: url("https://static.pexels.com/photos/230544/pexels-photo-230544.jpeg");
+  background-image: url("../images/filosofia-3.jpeg");
 }
 
 .fourth-img {
-  background-image: url("https://static.pexels.com/photos/161893/seattle-washington-city-cities-161893.jpeg");
+  background-image: url("../images/filosofia-4.jpeg");
 }
 
 
@@ -390,7 +383,7 @@ nav {
 
 .map-bg-div {
   position: relative;
-  height: 70vh;
+  height: 80vh;
 }
 
 .pin-icon {
@@ -462,7 +455,7 @@ nav {
 }
 
 .img-service-item {
-  background-image: url("https://static.pexels.com/photos/230544/pexels-photo-230544.jpeg");
+  background-image: url("../images/filosofia-3.jpeg");
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -848,153 +841,28 @@ ul:not(.browser-default) > li {}
   align-items: auto;
 }
 
-.card {
-  min-width: 275px;
-  width: 275px;
-  position: relative;
-  margin: 15px;
-  height: 350px;
-  border-radius: 7px;
-  background-size: cover;
-  background: transparentize(black,0.8);
-  box-shadow: 5px 5px 10px 1px transparentize(black,0.7);
-  transition: 0.2s all linear;
-  border: 1px solid transparentize(grey,0.85);
-  box-sizing: border-box;
-}
-
-.card-social {
-  position: absolute;
-  height: 75px;
-  width: 100%;
-  background: red;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  background: transparentize(black,0.4);
-  box-shadow: 2px 2px 10px 0 transparentize(black,0.5);
-  top: 275px;
-}
-  .card-social ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .card-social li {
-    // width: 30%
-    height: 100%;
-    text-align: center;
-    line-height: 75px;
-    font-size: 1.5em;
-    color: transparentize(white,0.15);
-    text-shadow: 5px 5px 5px transparentize(black,0.5);
-  }
-
-  .card-social:hover {
-    text-shadow: 7px 7px 5px transparentize(black,0.3);
-    transition: all 0.1s linear;
-  }
-
-  .card-image {
-    width: 100%;
-    height: 275px;
-    position: relative;
-    background-image: url('https://d13yacurqjgara.cloudfront.net/users/150724/screenshots/2211976/365_the_end_1x.png');
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-  }
-
-  .card-info {
-    position: relative;
-    width: 100%;
-    height: 35px;
-    line-height: 35px;
-    top: -265px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    font-family: 'Open Sans';
-    color: transparentize(white,0.15);
-  }
-
-  .card-title {
-    line-height: 35px;
-    height: 35px;
-    position: relative;
-    top: 0;
-    font-size: 25px;
-    text-align: center;
-    background: transparentize(black,0.4);
-    box-shadow: 5px 5px 10px 2px transparentize(black,0.7);
-  }
-
-  .card-detail {
-    line-height: 1.5em;
-    font-size: 1em;
-    height: 220px;
-    background: transparentize(black,0.4);
-    position: relative;
-    top: 5px;
-    padding: 5px 20px 0;
-    opacity: 0;
-    transform: scaleY(0);
-    transform-origin: center top;
-    box-shadow: 5px 5px 10px 2px transparentize(black,0.7);
-  }
-
-  .card-detail:hover {
-    box-shadow: 10px 10px 10px 1px transparentize(black,0.7);
-  }
-
-
-  .card-detail:hover .card-info .card-title {
-    box-shadow: 10px 10px 10px 1px transparentize(black,0.7);
-    transition: 0.3s all linear;
-  }
-
-  .card:hover .card-detail {
-    opacity: 1;
-    box-shadow: 10px 10px 10px 1px transparentize(black,0.7);
-    transition: 0.35s all linear;
-    transition-delay: 0.1s;
-    transform: scaleY(1);
-  }
-
-  .card-detail:hover .card-info .card-detail:nth-of-type(2) .card-image {
-      background-image: url('https://d13yacurqjgara.cloudfront.net/users/150724/screenshots/2164720/337_writing_blog_post_1x.png');
-  }
-  .card-detail:hover .card-info .card-detail:nth-of-type(3) .card-image {
-      background-image: url('https://d13yacurqjgara.cloudfront.net/users/150724/screenshots/2164720/337_writing_blog_post_1x.png');
-  }
-  .card-detail:hover .card-info .card-detail:nth-of-type(4) .card-image {
-      background-image: url('https://d13yacurqjgara.cloudfront.net/users/150724/screenshots/2164720/337_writing_blog_post_1x.png');
-  }
-
-  .ecommerce-features {
+.ecommerce-features {
   margin: 30px 0px;
   padding: 40px 100px;
 }
 
 .ecommerce-feature-1 {
-  background-image: url("https://static.pexels.com/photos/264636/pexels-photo-264636.jpeg");
+  background-image: url("../images/ecommerce-1.jpeg");
 }
 .ecommerce-feature-2 {
-    background-image: url("https://static.pexels.com/photos/296878/pexels-photo-296878.jpeg");
+    background-image: url("../images/ecommerce-2.jpeg");
 }
 .ecommerce-feature-3 {
-    background-image: url("https://static.pexels.com/photos/186464/pexels-photo-186464.jpeg");
+    background-image: url("../images/ecommerce-3.jpeg");
 }
 .ecommerce-feature-4 {
-    background-image: url("https://static.pexels.com/photos/209151/pexels-photo-209151.jpeg");
+    background-image: url("../images/ecommerce-4.jpeg");
 }
 .ecommerce-feature-5 {
-    background-image: url("https://static.pexels.com/photos/265087/pexels-photo-265087.jpeg");
+    background-image: url("../images/ecommerce-5.jpeg");
 }
 .ecommerce-feature-6 {
-    background-image: url("https://static.pexels.com/photos/163726/belgium-antwerp-shipping-container-163726.jpeg");
+    background-image: url("../images/ecommerce-6.jpeg");
 }
 
 .row .col.feature-item-col {
@@ -1073,21 +941,21 @@ ul:not(.browser-default) > li {}
   }
 
   .flow-1 {
-    background-image: url("https://static.pexels.com/photos/7097/people-coffee-tea-meeting.jpg");
+    background-image: url("../images/traditional-1.jpg");
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
   .flow-2 {
-    background-image: url("https://static.pexels.com/photos/6229/marketing-board-strategy.jpg");
+    background-image: url("../images/traditional-2.jpg");
   }
   .flow-3 {
-    background-image: url("https://static.pexels.com/photos/110469/pexels-photo-110469.jpeg");
+    background-image: url("../images/traditional-3.jpeg");
   }
   .flow-4 {
-    background-image: url("https://static.pexels.com/photos/33972/pexels-photo.jpg");
+    background-image: url("../images/traditional-5.jpg");
   }
   .flow-5 {
-    background-image: url("https://static.pexels.com/photos/7369/startup-photos.jpg");
+    background-image: url("../images/traditional-4.jpg");
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
