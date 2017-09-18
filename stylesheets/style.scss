@@ -1010,7 +1010,8 @@ ul:not(.browser-default) > li {}
       padding: 20vh 0 0 0;
     }
     .home-wrapper-text h1 {
-font-size: 3.3rem;
+      font-size: 3rem;
+      margin-bottom: 3vh;
     }
     .home-wrapper-text h3 {
       width: 100%;
@@ -1031,6 +1032,9 @@ font-size: 3.3rem;
   .flow-chart-text {
     margin-top: 6vh;
   }
+  .flowchart-container {
+    margin-bottom: 0px;
+  }
   .map-wrapper-row h3 {
     font-size: 1.8rem;
   }
@@ -1038,6 +1042,7 @@ font-size: 3.3rem;
     font-size: 1.2rem;
   }
   .map-wrapper-row {
+    margin: -2px 0px 0px 0px;
     padding: 50px 10px;
   }
   .map-bg-div {
