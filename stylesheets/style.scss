@@ -707,128 +707,6 @@ ul:not(.browser-default) > li {}
   font-weight: 100;
 }
 
-@media (max-width: 750px) and (min-width: 601px) {
-  html {
-    font-size: 10px;
-  }
-
-  .brand-logo-nav {
-    width: 200px;
-  }
-
-  .home-wrapper-text h1 {
-    font-size: 3rem;
-    margin-top: 0;
-  }
-
-  .home-wrapper-text h3 {
-    padding: 10px 20px;
-  }
-
-  .wrapper-header-presentation {
-    margin-bottom: 50px;
-  }
-
-  .card-services-row {
-    padding-top: 20px;
-  }
-
-  .service-items-description-text p {
-    font-size: 1.3rem;
-  }
-
-  .map-wrapper-row {
-    margin-top: 40px;
-  }
-
-  .img-service-item {
-    height: 300px;
-    width: 200px;
-    margin-top: -80px;
-  }
-
-  .carousel .carousel-item > img {
-    width: 80%;
-  }
-
-  .icon-wrapper-item-service {
-    bottom: 35%;
-  }
-
-  .footer-service-item-container {
-    height: 300px;
-    margin-left: -20px;
-  }
-
-  .footer-service-item-container::after {
-    height: 480px;
-    top: -60%;
-  }
-
-  .service-item-container-small {
-    padding: 30px 20px 0;
-  }
-
-  .map-image-bg {
-    width: 100%;
-    left: 0;
-  }
-
-  .map-bg-div {
-    height: 70vh;
-  }
-}
-@media (max-width: 991px) and (min-width: 751px) {
-  html {
-    font-size: 14px;
-  }
-
-  .home-wrapper-text h3 {
-    width: 70%;
-    margin: 0 15%;
-  }
-
-  #description-img-col {
-    display: none;
-  }
-
-  .brand-logo-nav {
-    width: 200px;
-  }
-
-  .wrapper-header-presentation {
-    margin-bottom: 30px;
-  }
-
-  .card-services-row {
-    padding-top: 20px;
-  }
-
-  .service-item-container {
-    margin-bottom: 30px;
-  }
-
-  .map-wrapper-row {
-    margin-top: 0;
-  }
-
-  .img-service-item {
-    margin-top: -80px;
-  }
-
-  .service-description-text h2 {
-    font-size: 2.8rem;
-  }
-
-  .clients-text {
-    font-size: 1.2rem;
-  }
-
-  .map-bg-div {
-    height: 30vh;
-  }
-}
-
 .card-container {
   position: relative;
   flex-wrap: wrap;
@@ -979,6 +857,188 @@ ul:not(.browser-default) > li {}
     line-height: 60px;
     font-size: 3rem;
   }
+
+  .tablet-helper {
+    display: none;
+  }
+
+@media (max-width: 780px) and (min-width: 601px) {
+  html {
+    font-size: 10px;
+  }
+  nav, .nav-wrapper{
+    width: 100%;
+  }
+  header::after {
+    top: 12%;
+    right: -6%;
+    width: 110%;
+  }
+  .nav-wrapper {
+    text-align: center;
+    padding-left: 0%;
+    padding-top: 4vh;
+  }
+  .brand-logo img {
+    width: 400px;
+  }
+  .home-wrapper-text {
+    padding: 20vh 0 0 0;
+  }
+  .home-wrapper-text h1 {
+    margin-bottom: 7vh;
+  }
+  .home-wrapper-text h3 {
+    font-size: 2rem;
+    padding: 20px 25px;
+  }
+  nav i.material-icons {
+    margin-top: -3vh;
+  }
+  .wrapper-header-presentation {
+    padding: 8% 2% 5% 2%;
+  }
+  .row .col.presentation-item-wrapper {
+    padding: 0 20px;
+  }
+  .features-columns {
+    height: 50vh;
+  }
+  .features-titles {
+    margin: 20vh 10%;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+  }
+  .desktop-helper {
+    display: none;
+  }
+  .step-flowchart-container {
+    height: 20vh;
+  }
+  .flow-chart-text {
+    margin-top: 3vh;
+  }
+  .tablet-helper {
+    display: block;
+  }
+  .flowchart-container {
+    margin-bottom: -2px;
+  }
+  .filosofia-wrapper h2 {
+    margin-top: 50px;
+}
+  #description-text-col {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #description-text-col p, .service-description-text p  {
+    font-size: 1.8rem;
+  }
+  .photos-filosofia {
+    display: none;
+  }
+  .clients-row-wrapper h2 {
+    margin-top: 0;
+  }
+  .row .col.feature-item-col {
+    padding-top: 35px;
+  }
+  .page-footer p {
+    font-size: 1.5rem;
+  }
+
+}
+@media (max-width: 1024px) and (min-width: 751px) {
+  html {
+    font-size: 14px;
+  }
+
+  .home-wrapper-text h3 {
+    width: 70%;
+    margin: 0 15%;
+  }
+
+  .photos-filosofia {
+    display: none;
+  }
+  #description-text-col {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .brand-logo-nav {
+    width: 200px;
+  }
+
+  #description-text-col p {
+    font-size: 1.8rem;
+  }
+
+  .page-footer p {
+    font-size: 1.5rem;
+  }
+
+  .wrapper-header-presentation {
+    margin-bottom: 30px;
+  }
+
+  .card-services-row {
+    padding-top: 20px;
+  }
+
+  .service-item-container {
+    margin-bottom: 30px;
+  }
+
+  .map-wrapper-row {
+    margin-top: 0;
+  }
+
+  .img-service-item {
+    margin-top: -80px;
+  }
+
+  .service-description-text h2 {
+    font-size: 2.8rem;
+  }
+
+  .clients-text {
+    font-size: 1.8rem;
+  }
+
+  .map-bg-div {
+    height: 30vh;
+  }
+  header::after {
+    top: 0%;
+    right: -30%;
+    width: 100%;
+  }
+  .home-wrapper-text {
+    padding-top: 13vh;
+  }
+  .features-columns {
+    height: 60vh;
+  }
+  .features-titles {
+    margin-top: 20vh;
+  }
+  .wrapper-header-presentation {
+    padding-bottom: 5%;
+  }
+  .flowchart-container {
+    width: 120%;
+    margin-bottom: -2px;
+  }
+  .desktop-helper {
+    display: none;
+  }
+  .map-wrapper-row {
+    height: 100vh;
+  }
+}
+
+
 
   @media (max-width: 600px) {
     html {
