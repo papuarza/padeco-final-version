@@ -863,7 +863,7 @@ ul:not(.browser-default) > li {}
   }
 
 
-@media (max-width: 1024px) and (min-width: 751px) {
+@media (max-width: 1024px) and (min-width: 781px) {
   html {
     font-size: 14px;
   }
@@ -954,8 +954,11 @@ ul:not(.browser-default) > li {}
   .row .col.feature-item-col {
     padding-top: 16px;
   }
-  .ecommerce-feature-5 {
-    padding-top: 20px;
+  .row .col.ecommerce-feature-5, .row .col.ecommerce-feature-6 {
+    padding-top: 50px;
+  }
+  body {
+    overflow: hidden;
   }
 }
 
@@ -984,6 +987,9 @@ ul:not(.browser-default) > li {}
   }
   .home-wrapper-text h1 {
     margin-bottom: 7vh;
+    width: 60%;
+    margin: 0 20% 10vh 20%;
+    font-size: 5.5rem;
   }
   .home-wrapper-text h3 {
     font-size: 2rem;
@@ -993,7 +999,7 @@ ul:not(.browser-default) > li {}
     margin-top: -3vh;
   }
   .wrapper-header-presentation {
-    padding: 8% 2% 5% 2%;
+    padding: 0% 2% 5% 2%;
   }
   .row .col.presentation-item-wrapper {
     padding: 0 20px;
@@ -1003,8 +1009,9 @@ ul:not(.browser-default) > li {}
   }
   .features-titles {
     margin: 20vh 10%;
-    font-size: 1.7rem;
-    line-height: 1.9rem;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    padding: 0;
   }
   .desktop-helper {
     display: none;
@@ -1020,6 +1027,7 @@ ul:not(.browser-default) > li {}
   }
   .flowchart-container {
     margin-bottom: -2px;
+    width: 100%;
   }
   .filosofia-wrapper h2 {
     margin-top: 50px;
@@ -1029,7 +1037,10 @@ ul:not(.browser-default) > li {}
     padding-bottom: 0px;
   }
   #description-text-col p, .service-description-text p  {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+  }
+  .service-description-text h3 {
+    font-size: 2.4rem;
   }
   .photos-filosofia {
     display: none;
@@ -1038,10 +1049,23 @@ ul:not(.browser-default) > li {}
     margin-top: 0;
   }
   .row .col.feature-item-col {
-    padding-top: 16px;
+    padding-top: 30px;
   }
   .page-footer p {
     font-size: 1.5rem;
+  }
+  .presentation-item-wrapper h4 {
+    font-size: 2rem;
+  }
+  .row .col.feature-item-col p {
+    font-size: 1.5rem;
+  }
+  .map-wrapper-row {
+    margin-top: 0;
+    height: 63vh;
+  }
+  .clients-text {
+    font-size: 1.8rem;
   }
 
 }
