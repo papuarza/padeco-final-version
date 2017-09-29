@@ -36,11 +36,11 @@ header::after {
   content: '';
   position: absolute;
   top: -15%;
-  right: -15%;
+  right: -20%;
   bottom: 0;
-  transform: rotate(285deg);
-  width: 80%;
-  height: 120%;
+  transform: rotate(15deg);
+  width: 80vw;
+  height: 145vh;
   background: #fff;
   opacity: 1;
 }
@@ -925,8 +925,8 @@ ul:not(.browser-default) > li {}
     height: 30vh;
   }
   header::after {
-    top: 0%;
-    right: -30%;
+    top: -15%;
+    right: -40%;
     width: 100%;
   }
   .home-wrapper-text {
@@ -970,9 +970,9 @@ ul:not(.browser-default) > li {}
     width: 100%;
   }
   header::after {
-    top: 12%;
-    right: -6%;
-    width: 110%;
+    top: 30%;
+    right: 3%;
+    width: 125vw;
   }
   .nav-wrapper {
     text-align: center;
@@ -1081,9 +1081,9 @@ ul:not(.browser-default) > li {}
 
     header::after {
       bottom: 0;
-      top: 9vh;
+      top: 25%;
       right: 0;
-      left: 0;
+      left: -40%;
       width: 82vh;
     }
 
