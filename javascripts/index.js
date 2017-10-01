@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $( ".read-more-icon" ).click(function(e) {
-    $(this).parent().next().toggle();
+  $( ".arrow-description" ).click(function(e) {
+    // $(this).parent().next().toggle();
   });
 
 
