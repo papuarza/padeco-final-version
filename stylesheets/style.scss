@@ -469,6 +469,13 @@ nav {
   width: 90%;
   margin: auto;
   padding: 5vh 5vh 0 5vh;
+
+}
+
+#ecommerce {
+  background-color: $primary-color;
+  color: #fff;
+  width: 100%;
 }
 
 .service-description-text h2 {
@@ -481,7 +488,7 @@ nav {
   font-size: 2rem;
   text-align: center;
   font-family: $title-font;
-  color: $primary-color;
+  color: #fff;
   margin: 60px 0px 0px 0px;
 }
 
@@ -721,7 +728,14 @@ ul:not(.browser-default) > li {}
 
 .ecommerce-features {
   margin: 30px 0px;
-  padding: 00px 100px;
+  padding: 00px 0px;
+  text-align: center;
+}
+
+.item-container-feature p {
+ color: $primary-color;
+ font-size: 1rem;
+ margin: 0;
 }
 
 .ecommerce-feature-1 {
@@ -862,26 +876,27 @@ ul:not(.browser-default) > li {}
     display: none;
   }
 
+  .item-container-feature {
+    background-color: #fff;
+    padding: 50px 25px 0px 25px;
+    border-radius: 360px;
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
   .item-container-feature li {
     display: inline-block;
+    color: $primary-color;
     font-size: 1.3rem;
     line-height: 1.7rem;
     font-weight: 400;
     text-transform: uppercase;
-  }
-
-  .item-container-feature i {
-    font-size: 1.8rem;
-    line-height: 1.7rem;
-    font-weight: 100;
-    float: right;
-    color: $primary-color;
-    cursor: pointer;
+    padding-bottom: 5px;
   }
 
   .item-container-feature div {
-    padding-bottom: 15px;
-    border-bottom: 1px dotted rgba(33,33,33,0.5);
   }
 
   .item-container-description {
@@ -892,26 +907,23 @@ ul:not(.browser-default) > li {}
 
   .e-commerce-platform {
     position: relative;
-    background-image: url("../images/amazon-shop.png");
     background-size: cover;
-    min-height: 70vh;
     border-radius: 2px;
     // border-bottom-right-radius: 200px;
   }
 
-  .manomano-card {
-    background-image: url("../images/manomano-shop.png");
+  .ecommerce-text p {
+    font-size: 1.1rem;
   }
 
-  .hover-bg {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    background-color: #212121;
-    opacity: 0.9;
-    // border-bottom-right-radius: 200px;
+  .ecommerce-text-small p {
+    font-size: 0.9rem;
   }
+
+  .amazon-row {
+    border-bottom: 1px solid rgba(255,255,255,0.05)
+  }
+
 
   .e-commerce-platform img {
     position: relative;
