@@ -5,15 +5,15 @@ $(document).ready(function(){
 
 
 
-      $('.parallax-2').parallax();
-      $('.carousel').carousel();
-      $('.modal').modal({
-        endingTop: "15%",
-      });
-      $('.carousel').carousel({fullWidth: true, dist:0});
-      setInterval(function () {
-        $('.carousel').carousel('next');
-      }, 2000);
+      // $('.parallax-2').parallax();
+      // $('.carousel').carousel();
+      // $('.modal').modal({
+      //   endingTop: "15%",
+      // });
+      // $('.carousel').carousel({fullWidth: true, dist:0});
+      // setInterval(function () {
+      //   $('.carousel').carousel('next');
+      // }, 2000);
 
       currentIndex = 0;
   messageText = ['optimizar', 'crear', 'posicionar', 'maximizar'];
