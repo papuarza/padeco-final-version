@@ -20,16 +20,18 @@
   gtag('config', 'UA-107265171-1');
 </script>
 
-  <link rel="shortcut icon" type="image/x-icon" href="./images/cart.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="./images/PADECO-7.ico" />
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="./stylesheets/materialize-src/sass/materialize.min.css">
-  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
   <script type="text/javascript" src="./javascripts/jquery-3.2.1.min.js">
   </script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+  <script type="text/javascript" src="./translations/english.js"></script>
   <script type="text/javascript" src="./javascripts/index.js"></script>
   <link rel="stylesheet" href="./stylesheets/style.min.css">
 </head>
@@ -39,19 +41,25 @@
     <div class="nav-wrapper">
       <a href="#" class="brand-logo"><img src="./images/padeco-logo-white.svg" alt="" class="brand-logo-nav"></a>
       <ul id="nav-mobile" class="hide-on-med-and-down nav-list">
-        <li><a href="#filosofia">Filosofía</a></li>
+        <li><a href="#filosofia" id="menu-filosofia">Filosofía</a></li>
         <li><a href="#ecommerce">E-Commerce</a></li>
-        <li><a href="#canal">Canal Tradicional</a></li>
-        <li><a href="#world">¿Dónde estamos?</a></li>
-        <li><a href="#clientes">Clientes</a></li>
-        <li><a href="#contactar">Contactar</a></li>
+        <li><a href="#canal" id="menu-canal">Canal Tradicional</a></li>
+        <li><a href="#world" id="menu-where">¿Dónde estamos?</a></li>
+        <li><a href="#clientes" id="menu-clientes">Clientes</a></li>
+        <li><a href="#contactar" id="menu-contactar">Contactar</a></li>
       </ul>
     </div>
     <nav>
       <div class="home-wrapper-text">
-
-        <h1>Especialistas en <br><strong><span id="typed"></span></strong><br /> canales de venta para empresas.</h1>
-        <h3>CONOCE NUESTRAS SOLUCIONES</h3>
+        <div class="language-selector">
+          <li class="language-item" id="selected-language"><img src="./images/spain.svg" alt=""><p>Español</p></li>
+          <ul id="menu-language">
+            <li class="language-item" id="spanish"><img src="./images/spain.svg" alt=""><p>Español</p></li>
+            <li class="language-item" id="english"><img src="./images/usa.svg" alt=""><p>English</p></li>
+          </ul>
+        </div>
+        <h1 id="header-text">Especialistas en <br><strong><span id="typed"></span></strong><br /> canales de venta para empresas.</h1>
+        <h3 id="header-button">CONOCE NUESTRAS SOLUCIONES</h3>
         <div style="text-align:center; margin: 10vh 0;"><i class="material-icons icon-arrow animated bounce infinite">keyboard_arrow_down</i></div>
       </div>
     </nav>
@@ -60,85 +68,85 @@
     <div class="row">
       <div class="col s12 m4 presentation-item-wrapper">
         <i class="material-icons features-icon z-depth-3">computer</i>
-        <h4><strong>Optimización y creación</strong> de canales e-commerce en distintas plataformas</h4>
+        <h4 id="feature-1"><strong>Optimización y creación</strong> de canales e-commerce en distintas plataformas</h4>
       </div>
       <div class="col s12 m4 presentation-item-wrapper">
         <i class="material-icons features-icon z-depth-3">local_grocery_store</i>
-        <h4>Canales <strong>tradicionales de venta</strong>, tanto nacionales como internacionales</h4>
+        <h4 id="feature-2">Canales <strong>tradicionales de venta</strong>, tanto nacionales como internacionales</h4>
       </div>
       <div class="col s12 m4 presentation-item-wrapper">
         <i class="material-icons features-icon z-depth-3">language</i>
-        <h4>Creación o desarollo de productos en actuales o <strong>nuevos mercados</strong></h4>
+        <h4 id="feature-3">Creación o desarollo de productos en actuales o <strong>nuevos mercados</strong></h4>
       </div>
     </div>
   </div>
   <div class="service-description-text z-depth-4" id="ecommerce">
     <h2>E-COMMERCE</h2>
     <hr class="subtitles-hr">
-    <p>Ofrecemos al cliente la posibilidad de <strong>crear, desarrollar y optimizar</strong> marketplaces online , mercados los cuales acceden <strong>millones de usuarios</strong> únicos cada mes.</p>
+    <p id="ecommerce-description">Ofrecemos al cliente la posibilidad de <strong>crear, desarrollar y optimizar</strong> marketplaces online , mercados los cuales acceden <strong>millones de usuarios</strong> únicos cada mes.</p>
     <hr class="amazon-row z-depth-3">
     <div class="row">
       <div class="col s12 l4" style="padding-top: 4%; padding-left:7%;">
           <img src="./images/amazon.png" alt="" style="width:80%;">
       </div>
       <div class="col s12 l8 ecommerce-text">
-          <p>Es la plataforma <strong>más grande de venta online a nivel global</strong> a la cuál acceden entre 8-10 millones de usuarios únicos al mes solo en España. <br><br>Tanto a través del uso de su plataforma con <strong>Seller Central</strong>, siendo proveedor de <strong>Amazon con Vendor Central</strong> o utilizando una estrategia conjunta, podrá<strong> impulsar sus ventas</strong>, sin descuidar su marca ni su política de precios.</p>
+          <p id="amazon-text">Es la plataforma <strong>más grande de venta online a nivel global</strong> a la cuál acceden entre 8-10 millones de usuarios únicos al mes solo en España. <br><br>Tanto a través del uso de su plataforma con <strong>Seller Central</strong>, siendo proveedor de <strong>Amazon con Vendor Central</strong> o utilizando una estrategia conjunta, podrá<strong> impulsar sus ventas</strong>, sin descuidar su marca ni su política de precios.</p>
       </div>
     </div>
     <hr class="amazon-row z-depth-3">
     <div class="row" style="width:100%">
-      <div class="col s12 l4" style="padding-top:0%; padding-left:17%;">
+      <div class="col s12 l4" style="padding-top:4%; padding-left:9%;">
         <img src="./images/manomano.png" alt="" style="width:70%;">
       </div>
 
       <div class="col s12 l8 ecommerce-text">
-            <p>Es un marketplace <strong>especializado en bricolaje y jardinería</strong> que busca llegar a los fans del bricolaje y el DIY. Presente en España desde junio de 2015, cuenta ya con <strong>más de 70.000 clientes</strong>, más de 250.000 referencias en catálogo y más de 5 millones de euros de facturación. A nivel internacional, desde su creación en 2013 como monEchelle, cuenta ya con <strong>más 850.000 clientes</strong>, 1 millón de referencias y una facturación mayor a los <strong>90 millones de euros</strong>. Esta presente en Francia, Bélgica, Gran Bretaña, Italia, Alemania y España.</p>
+            <p id="manomano-text">Es un marketplace <strong>especializado en bricolaje y jardinería</strong> que busca llegar a los fans del bricolaje y el DIY. Presente en España desde junio de 2015, cuenta ya con <strong>más de 70.000 clientes</strong>, más de 250.000 referencias en catálogo y más de 5 millones de euros de facturación. <br><br>A nivel internacional, desde su creación en 2013 como monEchelle, cuenta ya con <strong>más 850.000 clientes</strong>, 1 millón de referencias y una facturación mayor a los <strong>90 millones de euros</strong>. Esta presente en Francia, Bélgica, Gran Bretaña, Italia, Alemania y España.</p>
       </div>
     </div>
     <hr class="amazon-row z-depth-3">
-    <h3>¿Que le permite este servicio?</h3>
+    <h3 id="service-features-title">¿Que le permite este servicio?</h3>
 
   <div class="row ecommerce-features">
     <div class="col s12 m12 l3">
       <div class="item-container-feature z-depth-3">
         <div>
-          <li>Posicionamiento</li>
+          <li id="service-features-title-1">Posicionamiento</li>
         </div>
-        <p class="item-container-description">Posicionar sus productos de forma relevante en la plataforma para que sus potenciales ventas incrementen a medida que este mercado crezca</p>
+        <p class="item-container-description" id="service-features-description-1">Posicionar sus productos de forma relevante en la plataforma para que sus potenciales ventas incrementen a medida que este mercado crezca</p>
       </div>
     </div>
     <div class="col s12 m12 l3">
       <div class="item-container-feature">
         <div>
-          <li>Mercado Únicos</li>
+          <li id="service-features-title-2">Mercado Únicos</li>
         </div>
-        <p class="item-container-description">Entrar en mercados únicos que le permitirán poder desarrollar sus ventas bajo plataformas de alcance global</p>
+        <p class="item-container-description" id="service-features-description-2">Entrar en mercados únicos que le permitirán poder desarrollar sus ventas bajo plataformas de alcance global</p>
       </div>
     </div>
     <div class="col s12 m12 l3">
       <div class="item-container-feature">
         <div>
-          <li>Análisis Venta</li>
+          <li id="service-features-title-3">Análisis Venta</li>
         </div>
-        <p class="item-container-description">Información analítica de la plataforma conociendo con mayor detalle perfiles de clientes, predictibilidad de ventas, asesoramiento de stock, etc</p>
+        <p class="item-container-description" id="service-features-description-3">Información analítica de la plataforma conociendo con mayor detalle perfiles de clientes, predictibilidad de ventas, asesoramiento de stock, etc</p>
       </div>
     </div>
     <div class="col s12 m12 l3">
       <div class="item-container-feature">
         <div>
-          <li>Gestión Posventa</li>
+          <li id="service-features-title-4">Gestión Posventa</li>
         </div>
-        <p class="item-container-description">Servicio gestionado en la plataforma, en coordinación con nuestros clientes, alineado con sus estrategias de marketing en la relación con sus clientes</p>
+        <p class="item-container-description" id="service-features-description-4">Servicio gestionado en la plataforma, en coordinación con nuestros clientes, alineado con sus estrategias de marketing en la relación con sus clientes</p>
       </div>
     </div>
 </div>
 </div>
   <div>
     <div class="service-description-text" id="canal" style="padding-top:0px;">
-      <h2 style="margin-top:100px;">CANAL TRADICIONAL</h2>
+      <h2 style="margin-top:100px;" id="traditional-title">CANAL TRADICIONAL</h2>
       <hr class="subtitles-hr">
-      <p><strong>Desarrollamos y creamos nuevos mercados</strong> en asociación con nuestros clientes <strong>bajo un enfoque a éxito.</strong> Ofrecemos al cliente acceder a nuevos mercados de la mano de expertos</strong>, de forma rápida, externalizando costes. Permitimos  adquirir una ventaja competitiva de expansión internacional. </p>
-      <p>
+      <p id="traditional-description-1"><strong>Desarrollamos y creamos nuevos mercados</strong> en asociación con nuestros clientes <strong>bajo un enfoque a éxito.</strong> Ofrecemos al cliente acceder a nuevos mercados de la mano de expertos</strong>, de forma rápida, externalizando costes. Permitimos  adquirir una ventaja competitiva de expansión internacional. </p>
+      <p id="traditional-description-2">
         <strong>Ofrecemos servicios analíticos</strong> y sesiones informativas para darle al cliente una mayor formación y conocimiento del nuevo mercado, logrando <strong>optimizar su estrategia de marketing</strong> con mayor precisión. Todo bajo el enfoque de relación de <strong>negocio a largo plazo.</strong></p>
       </div>
   </div>
@@ -152,7 +160,7 @@
     <div class="icon-container z-depth-3">
       <i class="material-icons">find_in_page</i>
     </div>
-    <p>Análisis <br>Previo</p>
+    <p id="traditional-step-1">Análisis <br>Previo</p>
   </div>
   </div>
   <div class="col s12 m4 l2 step-flowchart-container flow-2">
@@ -160,7 +168,7 @@
       <div class="icon-container z-depth-3">
         <i class="material-icons">view_carousel</i>
       </div>
-      <p>Desarrollo<br>Estrategias</p>
+      <p id="traditional-step-2">Desarrollo<br>Estrategias</p>
     </div>
   </div>
   <div class="col s12 m4 l2 step-flowchart-container flow-3">
@@ -168,7 +176,7 @@
       <div class="icon-container z-depth-3">
         <i class="material-icons">check_box</i>
       </div>
-      <p>Implementar<br>Acciones</p>
+      <p id="traditional-step-3">Implementar<br>Acciones</p>
     </div>
   </div>
 
@@ -177,7 +185,7 @@
       <div class="icon-container z-depth-3">
         <i class="material-icons">equalizer</i>
       </div>
-      <p>Medición<br>Resultados</p>
+      <p id="traditional-step-4">Medición<br>Resultados</p>
     </div>
   </div>
   <div class="col s12 m4 l2 step-flowchart-container flow-5">
@@ -185,29 +193,29 @@
       <div class="icon-container z-depth-3">
         <i class="material-icons">settings_backup_restore</i>
       </div>
-      <p>Correción<br>Errores</p>
+      <p id="traditional-step-5">Correción<br>Errores</p>
     </div>
   </div>
   <div class="col s0 l1"></div>
 </div>
   <div class="row map-wrapper-row z-depth-4" id="world">
-    <h3 class="subtitles-text">¿Donde podemos ofrecer nuestros servicios?</h3>
+    <h3 class="subtitles-text" id="where-title">¿Donde podemos ofrecer nuestros servicios?</h3>
     <hr class="subtitles-hr">
-    <p>Nos alineamos con el cliente en su estrategia de desarrollo de marketing en los nuevos mercados que le ofrecemos, asesorándole en todo momento en nuevas propuestas para mejorar su posicionamiento en el país y aumentar su cuota de mercado.</p>
+    <p id="where-text">Nos alineamos con el cliente en su estrategia de desarrollo de marketing en los nuevos mercados que le ofrecemos, asesorándole en todo momento en nuevas propuestas para mejorar su posicionamiento en el país y aumentar su cuota de mercado.</p>
     <div class="map-bg-div">
       <img src="./images/world-map-png.png" alt="" class="map-image-bg">
       <img src="./images/world-map.png" alt="" class="map-image-bg">
     </div>
   </div>
   <div class="container filosofia-wrapper" id="filosofia" style="width:100%;">
-    <h2>¿CUÁL ES NUESTRA FILOSOFÍA?</h2>
+    <h2 id="filosofia-title">¿CUÁL ES NUESTRA FILOSOFÍA?</h2>
     <hr class="subtitles-hr">
     <div class="row description-row" style="margin-top:50px;">
       <div class="col s12 m12 l6" id="description-text-col">
-        <p>
+        <p id="filosofia-description-1">
           Desde <strong>PADECO GLOBAL</strong>, apostamos por facilitar a nuestros clientes un <strong>mercado global, transparente y ágil</strong>, que les permita gestionar y <strong>desarrollar sus ventas</strong> de forma simple con nosotros.
         </p>
-        <p>
+        <p id="filosofia-description-2">
           <strong>Buscamos ser un nexo</strong> de la red comercial actual del cliente, trabajando en conjunto con el objetivo de <strong>maximizar ingresos y márgenes</strong> con la estructura actual de la empresa. De esta forma, logramos que la empresa
           pueda alcanzar unas <strong>mayores ventas con un mismo nivel de recursos</strong>.
         </p>
@@ -226,9 +234,9 @@
   <div class="clients-row-wrapper row" id="clientes">
     <div class="row">
       <div class="col s12" id="clients-text-wrapper">
-        <h2>NUESTROS CLIENTES</h2>
+        <h2 id="clients-title">NUESTROS CLIENTES</h2>
         <hr class="subtitles-hr">
-        <p class="clients-text">Ayudamos a vender a clientes consolidados en sus sectores, así como a PYMES y Start-Ups</p>
+        <p class="clients-text" id="clients-text">Ayudamos a vender a clientes consolidados en sus sectores, así como a PYMES y Start-Ups</p>
       </div>
       <div class="col s12" id="carousel-wrapper">
         <div class="carousel carousel-logos">
@@ -248,7 +256,7 @@
       <div class="row">
         <div class="col l6 s12">
           <a href="#" class="brand-logo-footer"><img src="./images/padeco-logo.png" alt="" style="width: 100px"></a>
-          <p class="grey-text text-lighten-4">Especializados en la optimización y creación de canales de venta para empresas.</p>
+          <p class="grey-text text-lighten-4 footer-text">Especializados en la optimización y creación de canales de venta para empresas.</p>
           <p><strong>
             info@padecoglobal.com
           </strong></p>
@@ -261,13 +269,6 @@
         <a class="grey-text text-lighten-4 right" href="#">Back to Top</a>
       </div>
     </div>
-    <div class="input-field">
-    <select style="display:inline-block;width:10%;">
-  <option value="" disabled selected>Choose your option</option>
-  <option value="spanish"><img src="./images/spain.svg" alt="">Spanish</option>
-  <option value="usa"><img src="./images/usa.svg" alt="">English</option>
-</select>
-</div>
   </footer>
 </body>
 
