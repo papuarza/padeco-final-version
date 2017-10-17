@@ -20,8 +20,8 @@ var english = {
   },
   ecommerce: {
     text: "We offer to our client the possibility to <strong>create, develop and optimize</strong> online marketplaces that enter <strong>millions of unique users</strong> every month",
-    amazon: "It’s the <strong>largest global online sales platform</strong>, accessed millions unique users per month<br> just in all over the globe. <br><br>Using its platform with <strong>Seller Central</strong>, being an Amazon supplier with <strong>Central Vendor</strong> or using a joint strategy, you will be able to boost your sales, without neglecting your brand or pricing policy.",
-    manomano: "The <strong>biggest marketplace</strong> specialized in DIY and gardening. Present in Spain since June 2015, it already has <strong>more than 70,000 customers</strong>, more than 250,000 references in the catalog and more than 5 million euros in turnover. From an international perspective, since its inception in 2013 as monEchelle, it already has <strong>more than 850,000 customers</strong>, 1 million references and a turnover of more than 90 million euros. It is present in France, Belgium, Great Britain, Italy, Germany and Spain.",
+    amazon: "It’s the <strong>largest global online sales platform</strong>, accessed by millions unique users per month<br> all over the globe. <br><br>Using its platform with <strong>Seller Central</strong>, being an Amazon supplier with <strong>Central Vendor</strong> or using a joint strategy, you will be able to boost your sales, without neglecting your brand or pricing policy",
+    manomano: "The <strong>biggest marketplace</strong> specialized in DIY and gardening. Present in Spain since June 2015, it already has <strong>more than 70,000 customers</strong>, more than 250,000 references in the catalog and more than 5 million euros in turnover. From an international perspective, since its inception in 2013 as monEchelle, it already has <strong>more than 850,000 customers</strong>, 1 million references and a turnover of more than 90 million euros. It is present in France, Belgium, Great Britain, Italy, Germany and Spain",
     question: "What does this service allow you?",
     features: [
       {
@@ -34,23 +34,23 @@ var english = {
       },
       {
         title:"Sales Analysis",
-        description: "Constant analytical information of the platform served to our client to gain knowledgemabout potential customers identified, sales predictability, stock advice...etc."
+        description: "Constant analytical information of the platform served to our client to gain knowledgemabout potential customers identified, sales predictability, stock advice...etc"
       },
       {
         title:"After-sales",
-        description: "After-sales service platform management, in coordination with our client, aligned with their online relationship marketing strategies with their customers."
+        description: "After-sales service platform management, in coordination with our client, aligned with their online relationship marketing strategies with their customers"
       }
     ]
   },
     offline: {
       title: "OFF-LINE CHANNEL",
       description1: "We <strong>create and develop</strong> new markets in partnership with our clients under a success approach. We offer them access to our <strong>local market experts</strong>, as quickly as possible and outsourcing its costs. We provide to our client an <strong>international expansion competitive advantage.</strong>",
-      description2: "We <strong>offer analytical </strong>services and briefings to provide a greater <strong>training and knowledge</strong> of the new market, optimizing our client marketing strategy with greater accuracy. All under a <strong>long-term business relationship</strong> approach.",
-      steps: ["Previous <br>Analysis.", "Development<br> Strategy.", "Implement<br> Actions.", "Results<br> Measurement.", " Errors<br>Correction."]
+      description2: "We <strong>offer analytical </strong>services and briefings to provide a greater <strong>training and knowledge</strong> of the new market, optimizing our client marketing strategy with greater accuracy. All under a <strong>long-term business relationship</strong> approach",
+      steps: ["Previous <br>Analysis", "Development<br> Strategy", "Implement<br> Actions", "Results<br> Measurement", " Errors<br>Correction"]
     },
     world: {
       title: "WHERE WE CAN OFFER OUR SERVICES?",
-      description: "We align ourselves with the <strong>marketing development strategy</strong> of our client in the markets we work on, advising always on new proposals to <strong>improve their positioning in the country and increase market share.</strong>"
+      description: "We align ourselves with the <strong>marketing development strategy</strong> of our client in the markets we work on, advising always on new proposals to <strong>improve their positioning in the country and increase market share</strong>"
     },
     philosophy: {
       title: "WHAT IS OUR PHILOSOPHY?",
@@ -62,6 +62,6 @@ var english = {
       description: "We help to sell consolidated companies in their sectors, as well as SMEs and Start-Ups"
     },
     footer: {
-      text: "Specialized in sales channels creation and optimization for companies."
+      text: "Specialized in sales channels creation and optimization for companies"
     }
 };
