@@ -20,7 +20,7 @@ var english = {
   },
   ecommerce: {
     text: "We offer to our client the possibility to <strong>create, develop and optimize</strong> online marketplaces that enter <strong>millions of unique users</strong> every month",
-    amazon: "It’s the <strong>largest global online sales platform</strong>, accessed by millions unique users per month<br> all over the globe. <br><br>Using its platform with <strong>Seller Central</strong>, being an Amazon supplier with <strong>Central Vendor</strong> or using a joint strategy, you will be able to boost your sales, without neglecting your brand or pricing policy",
+    amazon: "It’s the <strong>largest global online sales platform</strong>, accessed by millions unique users per month<br> all over the globe <br><br>Using its platform with <strong>Seller Central</strong>, being an Amazon supplier with <strong>Central Vendor</strong> or using a joint strategy, you will be able to boost your sales, without neglecting your brand or pricing policy",
     manomano: "The <strong>biggest marketplace</strong> specialized in DIY and gardening. Present in Spain since June 2015, it already has <strong>more than 70,000 customers</strong>, more than 250,000 references in the catalog and more than 5 million euros in turnover. From an international perspective, since its inception in 2013 as monEchelle, it already has <strong>more than 850,000 customers</strong>, 1 million references and a turnover of more than 90 million euros. It is present in France, Belgium, Great Britain, Italy, Germany and Spain",
     question: "What does this service allow you?",
     features: [
@@ -34,7 +34,7 @@ var english = {
       },
       {
         title:"Sales Analysis",
-        description: "Constant analytical information of the platform served to our client to gain knowledgemabout potential customers identified, sales predictability, stock advice...etc"
+        description: "Constant analytical information of the platform served to our client to gain knowledge about potential customers, sales predictability, stock advice...etc"
       },
       {
         title:"After-sales",
