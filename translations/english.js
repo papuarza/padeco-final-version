@@ -44,7 +44,7 @@ var english = {
   },
     offline: {
       title: "OFF-LINE CHANNEL",
-      description1: "We <strong>create and develop</strong> new markets in partnership with our clients under a success approach. We offer them access to our <strong>local market experts</strong>, as quickly as possible and outsourcing its costs. We provide to our client an <strong>international expansion competitive advantage.</strong>",
+      description1: "We <strong>create and develop</strong> new markets in partnership with our clients under a success approach. We offer them access to our <strong>local market experts</strong>, as quickly as possible and outsourcing its costs. We provide to our client an <strong>international expansion competitive advantage</strong>",
       description2: "We <strong>offer analytical </strong>services and briefings to provide a greater <strong>training and knowledge</strong> of the new market, optimizing our client marketing strategy with greater accuracy. All under a <strong>long-term business relationship</strong> approach",
       steps: ["Previous <br>Analysis", "Development<br> Strategy", "Implement<br> Actions", "Results<br> Measurement", " Errors<br>Correction"]
     },
@@ -54,8 +54,8 @@ var english = {
     },
     philosophy: {
       title: "WHAT IS OUR PHILOSOPHY?",
-      description1: "From <strong>PADECO GLOBAL</strong>, we are committed to provide our customers with a <strong>global, transparent and agile market</strong>, where they can easily <strong>manage and develop</strong> their sales with us. ",
-      description2: "Our <strong>main objective</strong> is to be a nexus with the client current commercial network, <strong>working in tandem</strong> with the goal of <strong>maximizing its revenues and margins</strong> with its actual current structure. In this way, we achieve <strong>higher sales with the same resources.</strong>"
+      description1: "From <strong>PADECO GLOBAL</strong>, we are committed to provide our customers with a <strong>global, transparent and agile market</strong>, where they can easily <strong>manage and develop</strong> their sales with us ",
+      description2: "Our <strong>main objective</strong> is to be a nexus with the client current commercial network, <strong>working in tandem</strong> with the goal of <strong>maximizing its revenues and margins</strong> with its actual current structure. In this way, we achieve <strong>higher sales with the same resources</strong>"
     },
     clients: {
       title: "OUR CLIENTS",
