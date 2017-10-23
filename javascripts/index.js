@@ -48,7 +48,7 @@ $(document).ready(function(){
           $('#menu-where').html(english.menu.dondeOfrecer);
           $('#menu-clientes').html(english.menu.clientes);
           $('#menu-contactar').html(english.menu.contact);
-          $('#header-text').html('Specialists<br><strong><span id="typed">creating</span></strong><br> companies sales channel.');
+          $('#header-text').html('Specialists<br><strong><span id="typed">creating</span></strong><br> companies sales channel');
           messageText = english.landingHeader.array;
           $('#header-button').html(english.landingHeader.button);
           $('#feature-1').html(english.features.feature1);
