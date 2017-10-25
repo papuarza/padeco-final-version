@@ -1096,6 +1096,14 @@ ul:not(.browser-default) > li {}
   body {
     overflow: hidden;
   }
+  .item-container-feature {
+    width: 220px;
+    height: 220px;
+    padding-top: 40px;
+  }
+  .item-container-feature p {
+    font-size: 0.95rem;
+  }
 }
 
 @media (max-width: 780px) and (min-width: 601px) {
@@ -1213,6 +1221,21 @@ ul:not(.browser-default) > li {}
   }
   .language-selector img {
     width: 50px;
+  }
+  .item-container-feature p{
+    font-size: 1.5rem;
+  }
+  .item-container-feature li {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .item-container-feature {
+    padding-top: 55px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  .ecommerce-features {
+    padding-bottom: 50px;
   }
 
 }
