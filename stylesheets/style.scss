@@ -866,6 +866,10 @@ ul:not(.browser-default) > li {}
     margin-left: calc(50% - 30px)
   }
 
+  .contact-button {
+    display: none;
+  }
+
   .icon-container i {
     color: rgb(65,67,69);
     line-height: 60px;
@@ -1237,6 +1241,16 @@ ul:not(.browser-default) > li {}
   .ecommerce-features {
     padding-bottom: 50px;
   }
+  #carousel-wrapper {
+    padding: 0;
+  }
+  .carousel-logos {
+    width: 90%;
+  }
+  .carousel .carousel-item {
+    width: 250px;
+    height: 250px;
+  }
 
 }
 
@@ -1352,5 +1366,19 @@ ul:not(.browser-default) > li {}
   .carousel .carousel-item {
     width: 200px;
     height: 200px;
+  }
+  .contact-button {
+    display: flex;
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    width: 60px;
+    height: 60px;
+    background-color: $primary-color;
+    z-index: 5;
+    border-radius: 360px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
   }
   }
