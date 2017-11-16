@@ -1271,8 +1271,9 @@ ul:not(.browser-default) > li {}
 
     .brand-logo img {
       position: absolute;
-      top: 0;
+      top: 2vh;
       width: 180%;
+      left: 18vw;
       margin: 0 15%;
     }
 
@@ -1370,15 +1371,20 @@ ul:not(.browser-default) > li {}
   .contact-button {
     display: flex;
     position: absolute;
-    bottom: 5vh;
-    right: 5vw;
-    width: 60px;
-    height: 60px;
-    background-color: $primary-color;
+    width: 35px;
+    height: 35px;
+    top: 7vh;
+    left: 2vw;
+    background-color: #fff;
     z-index: 5;
     border-radius: 360px;
     align-items: center;
     justify-content: center;
-    color: #fff;
-  }
+    color: $primary-color;
+    box-shadow: 0 6px 10px 0 rgba(255,255,255,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3)
+    }
+
+    .contact-button nav i, nav i.material-icons {
+        font-size: 2rem;
+    }
   }
