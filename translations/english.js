@@ -61,6 +61,10 @@ var english = {
       title: "OUR CLIENTS",
       description: "We help to sell consolidated companies in their sectors, as well as SMEs and Start-Ups"
     },
+    colaborators: {
+      title: "OUR COLABORATORS",
+      description: "In order to offer to all our clients as many services as we can keeping the best quality we allied with strategic collaborators."
+    },
     footer: {
       text: "Specialized in sales channels creation and optimization for companies"
     }

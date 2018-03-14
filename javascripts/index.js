@@ -81,19 +81,22 @@ $(document).ready(function(){
           $('#filosofia-description-2').html(english.philosophy.description2);
           $('#clients-title').html(english.clients.title);
           $('#clients-text').html(english.clients.description);
+          $('#colaborators-title').html(english.colaborators.title);
+          $('#colaborators-text').html(english.colaborators.description);
+          messageText = ["creating", "positioning", "maximizing"];
         } else {
+          messageText = ['optimizar', 'crear', 'posicionar', 'maximizar'];
           location.reload();
         }
       };
 
-      currentIndex = 0;
-  messageText = ['optimizar', 'crear', 'posicionar', 'maximizar'];
+  currentIndex = 0;
   timeoutId = '';
   stopTimeout = false;
   function addHeaderMessage(){
     var current = document.getElementById("typed").innerHTML;
     var following = current.length;
-    var newLetter = messageText[currentIndex][following];
+    var newLetter = messageText[currentIndex][following] || "";
     document.getElementById("typed").innerHTML += newLetter;
     var x = document.getElementById("typed").innerHTML;
     clearTimeout(timeoutId);
@@ -128,5 +131,7 @@ $(document).ready(function(){
         }
       }, 100);
     }
-  addHeaderMessage();
+    setTimeout(()=> {
+      addHeaderMessage();
+    }, 1000)
 });

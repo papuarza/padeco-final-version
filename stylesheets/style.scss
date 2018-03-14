@@ -555,10 +555,30 @@ nav {
   box-sizing: border-box;
 }
 
+#colaborators-text {
+  width: 80%;
+}
+
 .know-more-service {
   font-size: 1.1rem;
   color: $complementary-color;
   font-weight: 100;
+}
+
+.colaborators-logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.colaborators-logo-wrapper .logo-item {
+  width: 25%;
+  padding: 10px 3%;
+}
+
+.colaborators-logo-wrapper .logo-item img {
+  object-fit: scale-down;
+  object-position: center;
+  width: 200px;
 }
 
 .service-item-container-small {
@@ -631,7 +651,6 @@ nav {
   text-align: center;
 }
 
-ul:not(.browser-default) > li {}
 
 .clients-row-wrapper {
   text-align: center;
@@ -900,8 +919,7 @@ ul:not(.browser-default) > li {}
     padding-bottom: 5px;
   }
 
-  .item-container-feature div {
-  }
+
 
   .item-container-description {
     font-size: 1.2rem;
@@ -1359,9 +1377,6 @@ ul:not(.browser-default) > li {}
     top: -6vh;
     border: 1px solid rgba(255,255,255, 0.1);
     right: auto;
-  }
-  .language-selector img {
-
   }
 
   .carousel .carousel-item {
