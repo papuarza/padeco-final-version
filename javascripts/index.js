@@ -1,5 +1,6 @@
 $(document).ready(function(){
       let language = "";
+      let messageText = ['optimizar', 'crear', 'posicionar', 'maximizar'];
       checkLanguage();
       function checkLanguage() {
         var userLang = navigator.language || navigator.userLanguage;
