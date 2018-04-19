@@ -576,9 +576,8 @@ nav {
 }
 
 .colaborators-logo-wrapper .logo-item img {
-  object-fit: scale-down;
-  object-position: center;
   width: 200px;
+  height: 200px;
 }
 
 .service-item-container-small {
@@ -1403,5 +1402,8 @@ nav {
 
     .contact-button nav i, nav i.material-icons {
         font-size: 2rem;
+    }
+    .colaborators-logo-wrapper {
+      display: flex;
     }
   }
