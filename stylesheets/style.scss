@@ -1019,6 +1019,15 @@ nav {
     text-align: left;
   }
 
+  .cities-wrapper {
+    display: flex;
+  }
+
+  .city-office {
+    width: 33%;
+    height: 300px;
+    background-color: red;
+  }
 
 @media (max-width: 1024px) and (min-width: 781px) {
   html {
