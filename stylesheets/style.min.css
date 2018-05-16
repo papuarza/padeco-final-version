@@ -1015,9 +1015,9 @@ nav {
 }
 
 .city-office {
-  width: 30%;
+  width: 25%;
   margin-right: 3%;
-  height: 300px;
+  height: 250px;
   background-position: center;
   background-size: cover;
   border-radius: 4px;
@@ -1030,7 +1030,7 @@ nav {
 
 .city-office p {
   color: #fff;
-  font-size: 80px;
+  font-size: 60px;
   position: relative;
   z-index: 5;
   font-weight: 300;
@@ -1050,11 +1050,15 @@ nav {
 }
 
 .city-office.city-1 {
-  background-image: url("../images/madrid.jpg")
+  background-image: url("../images/valencia.jpg")
 }
 
 .city-office.city-2 {
-  background-image: url("http://images.nationalgeographic.com.es/medio/2018/02/27/starwars-sevilla__1280x720.jpg")
+  background-image: url("../images/madrid.jpg")
+}
+
+.city-office.city-3 {
+  background-image: url("../images/sevilla.jpg")
 }
 
 @media (max-width: 1024px) and (min-width: 781px) {
