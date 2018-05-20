@@ -65,7 +65,12 @@ var english = {
       title: "OUR COLABORATORS",
       description: "In order to offer to all our clients as many services as we can keeping the best quality we allied with strategic collaborators."
     },
+    office: {
+      title: 'WHERE CAN YOU FIND US?'
+    },
     footer: {
-      text: "Specialized in sales channels creation and optimization for companies"
+      text: "Specialized in sales channels creation and optimization for companies",
+      form: "Contact Form",
+      formText: "Reach us through our contact form and we will respond as soon as we can!"
     }
 };

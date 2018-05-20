@@ -83,6 +83,9 @@ $(document).ready(function(){
           $('#clients-title').html(english.clients.title);
           $('#clients-text').html(english.clients.description);
           $('#colaborators-title').html(english.colaborators.title);
+          $('#office-title').html(english.office.title);
+          $('#form-title').html(english.footer.form);
+          $('#form-text').html(english.footer.formText);
           $('#colaborators-text').html(english.colaborators.description);
           messageText = ["creating", "positioning", "maximizing"];
         } else {
@@ -135,4 +138,30 @@ $(document).ready(function(){
     setTimeout(()=> {
       addHeaderMessage();
     }, 1000)
+
+    let sendButton = document.getElementById("send-button");
+    sendButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      let name = document.getElementById("name").value;
+      let from = document.getElementById("email").value;
+      let phone = document.getElementById("phone").value;
+      let message = document.getElementById("message").value;
+      let to = 'papu.arza@gmail.com'
+      let subject = 'Nuevo Mensaje desde la Web de Padeco'
+      let provider = 'Padeco Global'
+      let data = { name, from, phone, message, provider, to, subject };
+      axios.post('https://emailing-microservice.herokuapp.com/send-email', data)
+      .then(function (response) {
+        document.getElementById("contact-response").style.display = "flex"
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+    
+    })
+
+    let closeButton = document.getElementById('close-message');
+    closeButton.addEventListener('click', () => {
+      document.getElementById("contact-response").style.display = "none"
+    })
 });

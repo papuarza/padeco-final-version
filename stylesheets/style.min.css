@@ -233,6 +233,56 @@ nav {
   object-fit: cover
 }
 
+.contact-message-wrapper {
+  position: fixed;
+  width: 40%;
+  margin: 0 auto;
+  background-color: #212121;
+  color: #fff;
+  z-index: 50000;
+  padding: 6%;
+  text-align: center;
+}
+
+.contact-message-wrapper p {
+  position: relative;
+  z-index: 1000;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.contact-message img {
+  width: 20px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  cursor: pointer;
+}
+
+.contact-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50000;
+  display: none;
+}
+
+.contact-message:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
 .wrapper-header-presentation {
   width: 100%;
   box-sizing: border-box;
@@ -248,6 +298,7 @@ nav {
   font-family: "Roboto Mono", monospace;
   color: #212121
 }
+
 
 .row .col.presentation-item-wrapper {
   padding: 0 60px;
@@ -1059,6 +1110,27 @@ nav {
 
 .city-office.city-3 {
   background-image: url("../images/sevilla.jpg")
+}
+
+fieldset {
+  border: 0;
+}
+
+
+#contact-title {
+  margin: 0;
+  font-size: 3rem;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.page-footer .contact-text {
+  margin-bottom: 30px;
+}
+
+.page-footer textarea {
+  min-height: 150px;
 }
 
 @media (max-width: 1024px) and (min-width: 781px) {
