@@ -146,7 +146,7 @@ $(document).ready(function(){
       let from = document.getElementById("email").value;
       let phone = document.getElementById("phone").value;
       let message = document.getElementById("message").value;
-      let to = 'papu.arza@gmail.com'
+      let to = 'pdc@padecoglobal.com'
       let subject = 'Nuevo Mensaje desde la Web de Padeco'
       let provider = 'Padeco Global'
       let data = { name, from, phone, message, provider, to, subject };
