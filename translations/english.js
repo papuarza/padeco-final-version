@@ -59,7 +59,7 @@ var english = {
     },
     clients: {
       title: "OUR CLIENTS",
-      description: "We help to sell consolidated companies in their sectors, as well as SMEs and Start-Ups"
+      description: "We help consolidated companies in their sectors, as well as SMEs and Start-Ups"
     },
     colaborators: {
       title: "OUR COLABORATORS",
