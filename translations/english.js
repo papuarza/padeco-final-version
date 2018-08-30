@@ -58,7 +58,7 @@ var english = {
       description2: "Our <strong>main objective</strong> is to be a nexus with the client current commercial network, <strong>working in tandem</strong> with the goal of <strong>maximizing its revenues and margins</strong> with its actual current structure. In this way, we achieve <strong>higher sales with the same resources</strong>"
     },
     clients: {
-      title: "OUR CLIENTS",
+      title: "OUR PROJECTS",
       description: "We help consolidated companies in their sectors, as well as SMEs and Start-Ups"
     },
     colaborators: {

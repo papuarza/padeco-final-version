@@ -523,6 +523,20 @@ nav {
   text-align: center
 }
 
+.clients-wrapper-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.clients-wrapper-logos img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  position: relative;
+}
+
 .service-description-text h3 {
   font-size: 2rem;
   text-align: center;
@@ -695,7 +709,8 @@ nav {
 }
 
 #carousel-wrapper {
-  padding: 0 40px 0 60px
+  padding: 0 40px 0 60px;
+  display: none;
 }
 
 #clients-text-wrapper {
@@ -1362,7 +1377,8 @@ fieldset {
     padding-bottom: 50px
   }
   #carousel-wrapper {
-    padding: 0
+    padding: 0;
+    display: inline
   }
   .carousel-logos {
     width: 90%
@@ -1386,6 +1402,11 @@ fieldset {
     left: -50%;
     width: 82vh
   }
+
+  .clients-wrapper-logos {
+    display: none;
+  }
+
   .colaborators-logo-wrapper .logo-item {
     width: 100%
   }
@@ -1461,7 +1482,8 @@ fieldset {
     font-size: 1.8rem
   }
   #carousel-wrapper {
-    padding: 0
+    padding: 0;
+    display: inline;
   }
   .carousel-logos {
     width: 100%
