@@ -70,7 +70,7 @@ var english = {
     },
     footer: {
       text: "Specialized in sales channels creation and optimization for companies",
-      form: "Any doubt?",
+      form: "Do you have a project?",
       formText: "Reach us through our contact form and we will respond as soon as we can!"
     }
 };
