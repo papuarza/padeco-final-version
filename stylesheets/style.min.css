@@ -531,8 +531,8 @@ nav {
 }
 
 .clients-wrapper-logos img {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   margin: 20px;
   position: relative;
 }
@@ -1378,7 +1378,7 @@ fieldset {
   }
   #carousel-wrapper {
     padding: 0;
-    display: inline
+    display: none;
   }
   .carousel-logos {
     width: 90%
@@ -1404,7 +1404,12 @@ fieldset {
   }
 
   .clients-wrapper-logos {
-    display: none;
+    
+  }
+
+  .clients-wrapper-logos img {
+    width: 140px;
+    height: 140px;
   }
 
   .colaborators-logo-wrapper .logo-item {
@@ -1483,7 +1488,7 @@ fieldset {
   }
   #carousel-wrapper {
     padding: 0;
-    display: inline;
+    display: none;
   }
   .carousel-logos {
     width: 100%
